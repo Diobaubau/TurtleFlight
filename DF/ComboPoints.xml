@@ -1,0 +1,264 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\..\FrameXML\UI.xsd">
+
+	<Script file="ComboPoints.lua" />
+	
+	<FontString name="RogueFocusFontBigTemplate" font="Fonts\FRIZQT__.TTF" virtual="true">
+		<FontHeight>
+			<AbsValue val="10" />
+		</FontHeight>
+		<Color r="1.0" g="1.0" b="1.0" />
+	</FontString>
+	
+	<FontString name="RogueFocusFontSmallTemplate" font="Fonts\FRIZQT__.TTF" virtual="true">
+		<FontHeight>
+			<AbsValue val="8" />
+		</FontHeight>
+		<Color r="1.0" g="1.0" b="1.0" />
+	</FontString>
+	
+	<Frame name="RogueFocusFrame" toplevel="true" parent="UIParent">
+		<Size>
+			<AbsDimension x="70" y="130" />
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER" parent="UIParent">
+				<Offset>
+					<AbsDimension x="-110" y="-40" />
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Frames>
+
+			<Button name="RogueFocusBorder1">
+				<Size>
+					<AbsDimension x="32" y="32" />
+				</Size>
+				<Anchors>
+					<Anchor point="CENTER">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="RogueFocusBorder1Texture" file="Interface\AddOns\DF\Textures\ComboBorde2">
+							<Size>
+								<AbsDimension x="32" y="32" />
+							</Size>
+							<Anchors>
+								<Anchor point="CENTER">
+									<Offset>
+										<AbsDimension x="9" y="-38" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Frames>
+					<StatusBar name="RogueFocusCombo1" inherits="RogueFocusFrame" framestrata="MEDIUM">
+						<Size>
+							<AbsDimension x="32" y="32" />
+						</Size>
+						<Anchors>
+							<Anchor point="CENTER">
+								<Offset>
+									<AbsDimension x="9" y="-38" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<BarTexture file="Interface\AddOns\DF\Textures\ComboStatus2" />
+					</StatusBar>
+				</Frames>
+			</Button>
+			
+			<Button name="RogueFocusBorder2">
+				<Size>
+					<AbsDimension x="32" y="32" />
+				</Size>
+				<Anchors>
+					<Anchor point="CENTER">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="RogueFocusBorder2Texture" file="Interface\AddOns\DF\Textures\ComboBorde2">
+							<Size>
+								<AbsDimension x="32" y="32" />
+							</Size>
+							<Anchors>
+								<Anchor point="CENTER">
+									<Offset>
+										<AbsDimension x="-3" y="-19" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Frames>
+					<StatusBar name="RogueFocusCombo2" inherits="RogueFocusFrame" framestrata="MEDIUM">
+						<Size>
+							<AbsDimension x="32" y="32" />
+						</Size>
+						<Anchors>
+							<Anchor point="CENTER">
+								<Offset>
+									<AbsDimension x="-3" y="-19" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<BarTexture file="Interface\AddOns\DF\Textures\ComboStatus2" />
+					</StatusBar>
+				</Frames>
+			</Button>
+			
+			<Button name="RogueFocusBorder3">
+				<Size>
+					<AbsDimension x="32" y="32" />
+				</Size>
+				<Anchors>
+					<Anchor point="CENTER">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="RogueFocusBorder3Texture" file="Interface\AddOns\DF\Textures\ComboBorde2">
+							<Size>
+								<AbsDimension x="32" y="32" />
+							</Size>
+							<Anchors>
+								<Anchor point="CENTER">
+									<Offset>
+										<AbsDimension x="-7" y="3" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Frames>
+					<StatusBar name="RogueFocusCombo3" inherits="RogueFocusFrame" framestrata="MEDIUM">
+						<Size>
+							<AbsDimension x="32" y="32" />
+						</Size>
+						<Anchors>
+							<Anchor point="CENTER">
+								<Offset>
+									<AbsDimension x="-7" y="3" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<BarTexture file="Interface\AddOns\DF\Textures\ComboStatus2" />
+					</StatusBar>
+				</Frames>
+			</Button>
+			
+			<Button name="RogueFocusBorder4">
+				<Size>
+					<AbsDimension x="32" y="32" />
+				</Size>
+				<Anchors>
+					<Anchor point="CENTER">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="RogueFocusBorder4Texture" file="Interface\AddOns\DF\Textures\ComboBorde2">
+							<Size>
+								<AbsDimension x="32" y="32" />
+							</Size>
+							<Anchors>
+								<Anchor point="CENTER">
+									<Offset>
+										<AbsDimension x="-3" y="25" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Frames>
+					<StatusBar name="RogueFocusCombo4" inherits="RogueFocusFrame" framestrata="MEDIUM">
+						<Size>
+							<AbsDimension x="32" y="32" />
+						</Size>
+						<Anchors>
+							<Anchor point="CENTER">
+								<Offset>
+									<AbsDimension x="-3" y="25" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<BarTexture file="Interface\AddOns\DF\Textures\ComboStatus2" />
+					</StatusBar>
+				</Frames>
+			</Button>
+			
+			<Button name="RogueFocusBorder5">
+				<Size>
+					<AbsDimension x="50" y="50" />
+				</Size>
+				<Anchors>
+					<Anchor point="CENTER">
+						<Offset>
+							<AbsDimension x="0" y="0" />
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="RogueFocusBorder5Texture" file="Interface\AddOns\DF\Textures\ComboBorde">
+							<Size>
+								<AbsDimension x="50" y="50" />
+							</Size>
+							<Anchors>
+								<Anchor point="CENTER">
+									<Offset>
+										<AbsDimension x="15" y="45" />
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Frames>
+					<StatusBar name="RogueFocusCombo5" inherits="RogueFocusFrame" framestrata="MEDIUM">
+						<Size>
+							<AbsDimension x="50" y="50" />
+						</Size>
+						<Anchors>
+							<Anchor point="CENTER">
+								<Offset>
+									<AbsDimension x="15" y="45" />
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<BarTexture file="Interface\AddOns\DF\Textures\ComboStatus" />
+					</StatusBar>
+				</Frames>
+			</Button>
+		</Frames>
+		
+		<Scripts>
+			<OnLoad>
+				this:SetBackdropBorderColor(0.7, 0.7, 0.7);
+				RogueFocus:OnLoad();
+			</OnLoad>
+			<OnEvent>
+				RogueFocus:OnEvent(event);
+			</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>
