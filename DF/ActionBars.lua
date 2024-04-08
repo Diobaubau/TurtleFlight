@@ -20,7 +20,7 @@ end
 
 local frames = {
     -- actionbar paging
-    MainMenuBarPageNumber, ActionBarUpButton, ActionBarDownButton,
+    --MainMenuBarPageNumber, ActionBarUpButton, ActionBarDownButton,
 
     -- xp and reputation bar
     MainMenuXPBarTexture2, MainMenuXPBarTexture3,
@@ -184,6 +184,28 @@ for _, g in pairs({MainMenuBarTexture0, MainMenuBarTexture1, BonusActionBarTextu
         g:SetTexture("Interface\\Addons\\DF\\img\\UI-MainMenuBar-Dwarf")
     end
 end
+
+local up = ActionBarUpButton
+up:SetNormalTexture("Interface\\Addons\\DF\\img\\UpNormal")
+up:SetPushedTexture("Interface\\Addons\\DF\\img\\UpPushed")
+up:SetHighlightTexture("Interface\\Addons\\DF\\img\\UpHighlight")
+up:SetWidth(20)
+up:SetHeight(20)
+up:ClearAllPoints()
+up:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -40, 0)
+
+local down = ActionBarDownButton
+down:SetNormalTexture("Interface\\Addons\\DF\\img\\DownNormal")
+down:SetPushedTexture("Interface\\Addons\\DF\\img\\DownPushed")
+down:SetHighlightTexture("Interface\\Addons\\DF\\img\\DownHighlight")
+down:SetWidth(20)
+down:SetHeight(20)
+down:ClearAllPoints()
+down:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -40, -15)
+
+MainMenuBarPageNumber:ClearAllPoints()
+MainMenuBarPageNumber:SetFont("Fonts\\FRIZQT__.TTF", 12, "OUTLINE")
+MainMenuBarPageNumber:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -23, -6)
 
 MainMenuExpBar:SetAlpha(0) --Required for tXPbar.lua to work
 

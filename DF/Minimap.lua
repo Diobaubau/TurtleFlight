@@ -122,22 +122,22 @@ MinimapClock = CreateFrame("Frame", "Clock", Minimap)
 MinimapClock:Hide()
 MinimapClock:SetFrameLevel(64)
 MinimapClock:SetPoint("CENTER", MinimapZoneText, 0, -225)
-MinimapClock:SetWidth(68)
+MinimapClock:SetWidth(80)
 MinimapClock:SetHeight(23)
 MinimapClock:SetBackdrop({
-bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
-edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
+bgFile = "",
+edgeFile = "",
 tile = true, tileSize = 8, edgeSize = 16,
 insets = { left = 3, right = 3, top = 3, bottom = 3 }
 })
 MinimapClock:SetBackdropBorderColor(.9,.8,.5,1)
-MinimapClock:SetBackdropColor(.4,.4,.4,1)
+MinimapClock:SetBackdropColor( 0, 0, 0,0.5)
 
 MinimapClock:Show()
 MinimapClock:EnableMouse(true)
 
 MinimapClock.text = MinimapClock:CreateFontString("Status", "LOW", "GameFontNormal")
-MinimapClock.text:SetFont(STANDARD_TEXT_FONT, 12, "OUTLINE")
+MinimapClock.text:SetFont(STANDARD_TEXT_FONT, 12, "NONE")
 MinimapClock.text:SetAllPoints(MinimapClock)
 MinimapClock.text:SetFontObject(GameFontWhite)
 MinimapClock:SetScript("OnUpdate", function()

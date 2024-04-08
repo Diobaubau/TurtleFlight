@@ -14,9 +14,6 @@ PlayerFrameManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HU
 PlayerFrameManaBar:SetWidth(125)
 PlayerFrameManaBar:SetPoint("TOPLEFT", 102, -55)
 
---BackGroundPlayerandPortrait
---PlayerPortrait:ClearAllPoints()
---PlayerPortrait:SetPoint("CENTER", 0, 0)
 PlayerPortrait:SetHeight(62)
 PlayerPortrait:SetWidth(62)
 PlayerPortrait:SetTexture("")
