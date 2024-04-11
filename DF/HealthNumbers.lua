@@ -2,10 +2,10 @@ TargetFrame.StatusTexts = CreateFrame("Frame", nil, TargetFrame)
 TargetFrame.StatusTexts:SetAllPoints(TargetFrame)
 
 TargetFrameHealthBar.TextString = TargetFrame.StatusTexts:CreateFontString("TargetFrameHealthBarText", "OVERLAY")
-TargetFrameHealthBar.TextString:SetPoint("TOP", TargetFrameName, "BOTTOM", 0, 27)
+TargetFrameHealthBar.TextString:SetPoint("CENTER", TargetName , 0, -34)
 
 TargetFrameManaBar.TextString = TargetFrame.StatusTexts:CreateFontString("TargetFrameManaBarText", "OVERLAY")
-TargetFrameManaBar.TextString:SetPoint("TOP", TargetFrameName, "BOTTOM", 0, 22)
+TargetFrameManaBar.TextString:SetPoint("CENTER", TargetName , 0, -19)
 
 PetFrameHealthBar.TextString:SetPoint("CENTER", PetFrameHealthBar, "CENTER", -2, 0)
 PetFrameManaBar.TextString:SetPoint("CENTER", PetFrameManaBar, "CENTER", -2, -2)
