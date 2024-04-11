@@ -18,7 +18,7 @@ PlayerPortrait:SetHeight(62)
 PlayerPortrait:SetWidth(62)
 PlayerPortrait:SetTexture("")
 PlayerFrameBackground:ClearAllPoints()
-PlayerFrameBackground:SetPoint("CENTER", 49, 2)
+PlayerFrameBackground:SetPoint("CENTER", 48, 2)
 PlayerFrameBackground:SetHeight(30)
 PlayerFrameBackground:SetWidth(125)
 
@@ -34,6 +34,98 @@ playerFrame.healthbar.TextString:SetTextColor(1, 1, 1)
 playerFrame.manabar.TextString:SetFont(STANDARD_TEXT_FONT, 10,"OUTLINE")
 playerFrame.manabar.TextString:SetTextColor(1, 1, 1)
 
+--PartyMembersFrame
+PartyMemberFrame1Texture:SetTexture([[Interface\Addons\DF\img\UI-PartyFrame]])
+PartyMemberFrame1Texture:SetWidth(160)
+PartyMemberFrame1Texture:SetHeight(80)
+PartyMemberFrame1HealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+PartyMemberFrame1ManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
+PartyMemberFrame1HealthBar:ClearAllPoints()
+PartyMemberFrame1HealthBar:SetPoint("CENTER", 19, -3)
+PartyMemberFrame1HealthBar:SetWidth(123)
+PartyMemberFrame1HealthBar:SetHeight(13)
+PartyMemberFrame1ManaBar:ClearAllPoints()
+PartyMemberFrame1ManaBar:SetPoint("CENTER", 19, -15)
+PartyMemberFrame1ManaBar:SetWidth(123)
+PartyMemberFrame1ManaBar:SetHeight(7)
+
+--partyportrait
+PartyMemberFrame1Portrait:ClearAllPoints()
+PartyMemberFrame1Portrait:SetPoint("CENTER", -32, -5)
+PartyMemberFrame1Portrait:SetWidth(43)
+PartyMemberFrame1Portrait:SetHeight(43)
+PartyMemberFrame1Name:ClearAllPoints()
+PartyMemberFrame1Name:SetPoint("CENTER", 5, 15)
+
+--PartyMember2
+PartyMemberFrame2Texture:SetTexture([[Interface\Addons\DF\img\UI-PartyFrame]])
+PartyMemberFrame2Texture:SetWidth(160)
+PartyMemberFrame2Texture:SetHeight(80)
+PartyMemberFrame2HealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+PartyMemberFrame2ManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
+PartyMemberFrame2HealthBar:ClearAllPoints()
+PartyMemberFrame2HealthBar:SetPoint("CENTER", 19, -3)
+PartyMemberFrame2HealthBar:SetWidth(123)
+PartyMemberFrame2HealthBar:SetHeight(13)
+PartyMemberFrame2ManaBar:ClearAllPoints()
+PartyMemberFrame2ManaBar:SetPoint("CENTER", 19, -15)
+PartyMemberFrame2ManaBar:SetWidth(123)
+PartyMemberFrame2ManaBar:SetHeight(7)
+
+--partyportrait
+PartyMemberFrame2Portrait:ClearAllPoints()
+PartyMemberFrame2Portrait:SetPoint("CENTER", -32, -5)
+PartyMemberFrame2Portrait:SetWidth(43)
+PartyMemberFrame2Portrait:SetHeight(43)
+PartyMemberFrame2Name:ClearAllPoints()
+PartyMemberFrame2Name:SetPoint("CENTER", 5, 15)
+
+--PartyMember3
+PartyMemberFrame3Texture:SetTexture([[Interface\Addons\DF\img\UI-PartyFrame]])
+PartyMemberFrame3Texture:SetWidth(160)
+PartyMemberFrame3Texture:SetHeight(80)
+PartyMemberFrame3HealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+PartyMemberFrame3ManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
+PartyMemberFrame3HealthBar:ClearAllPoints()
+PartyMemberFrame3HealthBar:SetPoint("CENTER", 19, -3)
+PartyMemberFrame3HealthBar:SetWidth(123)
+PartyMemberFrame3HealthBar:SetHeight(13)
+PartyMemberFrame3ManaBar:ClearAllPoints()
+PartyMemberFrame3ManaBar:SetPoint("CENTER", 19, -15)
+PartyMemberFrame3ManaBar:SetWidth(123)
+PartyMemberFrame3ManaBar:SetHeight(7)
+
+--partyportrait
+PartyMemberFrame3Portrait:ClearAllPoints()
+PartyMemberFrame3Portrait:SetPoint("CENTER", -32, -5)
+PartyMemberFrame3Portrait:SetWidth(43)
+PartyMemberFrame3Portrait:SetHeight(43)
+PartyMemberFrame3Name:ClearAllPoints()
+PartyMemberFrame3Name:SetPoint("CENTER", 5, 15)
+
+--PartyMember4
+PartyMemberFrame4Texture:SetTexture([[Interface\Addons\DF\img\UI-PartyFrame]])
+PartyMemberFrame4Texture:SetWidth(160)
+PartyMemberFrame4Texture:SetHeight(80)
+PartyMemberFrame4HealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+PartyMemberFrame4ManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
+PartyMemberFrame4HealthBar:ClearAllPoints()
+PartyMemberFrame4HealthBar:SetPoint("CENTER", 19, -3)
+PartyMemberFrame4HealthBar:SetWidth(123)
+PartyMemberFrame4HealthBar:SetHeight(13)
+PartyMemberFrame4ManaBar:ClearAllPoints()
+PartyMemberFrame4ManaBar:SetPoint("CENTER", 19, -15)
+PartyMemberFrame4ManaBar:SetWidth(123)
+PartyMemberFrame4ManaBar:SetHeight(7)
+
+--partyportrait
+PartyMemberFrame4Portrait:ClearAllPoints()
+PartyMemberFrame4Portrait:SetPoint("CENTER", -32, -5)
+PartyMemberFrame4Portrait:SetWidth(43)
+PartyMemberFrame4Portrait:SetHeight(43)
+PartyMemberFrame4Name:ClearAllPoints()
+PartyMemberFrame4Name:SetPoint("CENTER", 5, 15)
+
 
 --TargetFrame
 TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame2]]
@@ -48,7 +140,10 @@ TargetofTargetManaBar:ClearAllPoints()
 TargetofTargetHealthBar:SetWidth(53)
 TargetofTargetManaBar:SetWidth(53)
 TargetofTargetManaBar:SetPoint("CENTER", 20, -5)
-
+TargetofTargetBackground:ClearAllPoints()
+TargetofTargetBackground:SetPoint("CENTER", 20, 0)
+TargetofTargetBackground:SetWidth(50)
+TargetofTargetBackground:SetHeight(20)
 --HealbarTarget
 TargetFrameHealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
 TargetFrameHealthBar:SetPoint("TOPRIGHT", -102, -34)
@@ -90,7 +185,7 @@ function TargetFrame_CheckClassification()
     elseif ( classification == "elite"  ) then
       TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame-Elite]]
     elseif ( classification == "rare"  ) then
-      TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame-Elite_Rare]]
+      TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame-Elite-Rare]]
     else
       TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame2]]  
   end
@@ -178,6 +273,7 @@ end
     wait:UnregisterAllEvents()
     wait:Hide()
   end)
+
 
 
   TargetFrameHealthBar:SetStatusBarColor(0.6, 1, 0.1)

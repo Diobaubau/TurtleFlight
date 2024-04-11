@@ -598,7 +598,6 @@ local function OnEvent()
 		BankUpdateBagSlotStatus()
 	elseif event == 'ADDON_LOADED' and arg1 == 'DF' then
 		SUCC_bagOptions = SUCC_bagDefaults()
-		this:UnregisterEvent('ADDON_LOADED')
 		BankFrame:UnregisterEvent('BANKFRAME_OPENED')
 		this:RegisterEvent('BAG_CLOSED')
 		this:RegisterEvent('BAG_UPDATE')

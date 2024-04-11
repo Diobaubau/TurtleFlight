@@ -23,32 +23,32 @@ if race == "Night Elf" then
     leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
     rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70, 8)
-    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 71.5, 8.5)
+    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 8)
 elseif race == "Human" then
     leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
     rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70, 8)
-    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 71.5, 8.5)
+    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 8)
 elseif race == "Gnome" then
     leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
     rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70, 8)
-    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 71.5, 8.5)
+    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 8)
 elseif race == "Dwarf" then
     leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
     rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70, 8)
-    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 71.5, 8.5)
+    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 8)
 elseif race == "High Elf" then
     leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
     rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70, 8)
-    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 71.5, 8.5)
+    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 8)
 else
     leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Wyvern")
     rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Wyvern")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70.5, 2)
-    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 71.5, 2.5)
+    rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 3)
 end
 
 --Size the endcaps

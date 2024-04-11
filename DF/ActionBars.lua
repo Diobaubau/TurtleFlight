@@ -115,11 +115,11 @@ local hookUIParent_ManageFramePositions = UIParent_ManageFramePositions
     if MainMenuExpBar:IsVisible() or ReputationWatchBar:IsVisible() then
         local anchor = GetWatchedFactionInfo() and ReputationWatchBar or MainMenuExpBar
     
-    MainMenuBar:SetPoint("BOTTOM", WorldFrame, "BOTTOM", 0, 27)
+    MainMenuBar:SetPoint("BOTTOM", WorldFrame, "BOTTOM", -1, 27)
     MainMenuBarLeftEndCap:SetPoint("RIGHT", MainMenuBarArtFrame, "LEFT", 26, 10)
     MainMenuBarRightEndCap:SetPoint("LEFT", MainMenuBarArtFrame, "RIGHT", -26, 10)
     else
-        MainMenuBar:SetPoint("BOTTOM", WorldFrame, "BOTTOM", 0, 13)
+        MainMenuBar:SetPoint("BOTTOM", WorldFrame, "BOTTOM", -1, 13)
     MainMenuBarLeftEndCap:SetPoint("RIGHT", MainMenuBarArtFrame, "LEFT", 26, 25)
     MainMenuBarRightEndCap:SetPoint("LEFT", MainMenuBarArtFrame, "RIGHT", -26, 25)
     MainMenuBarMaxLevelBar:SetAlpha(0)
