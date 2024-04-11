@@ -1,2 +1,3 @@
 The "PaperDoll" file is moved to "Interface/"
- special thanks <3
+
+Special thanks to SUCC-bag <3
