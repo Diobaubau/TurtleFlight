@@ -14,8 +14,6 @@ Minimap.lua
 XPbar.lua
 Buttons.lua
 UnitFrame.lua
-FrameBag.lua
 ComboPoints.xml
-Compare.lua
 Castbar.lua
 HealthNumbers.lua
