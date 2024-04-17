@@ -145,7 +145,7 @@ function RogueFocus:inStealth()
 end
 
 local function points()
-    local media = "Interface\\Addons\\DF\\media\\"
+    local media = "Interface\\Addons\\DragonFlightUI\\media\\"
     local points = GetComboPoints("player", "target")
     PlaySoundFile(media..points..".mp3")
 end

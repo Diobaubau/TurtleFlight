@@ -1,16 +1,16 @@
 
 --PlayerFrame
-PlayerFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame]]
-PlayerStatusTexture:SetTexture[[Interface\Addons\DF\img\UI-Player-Status]]
+PlayerFrameTexture:SetTexture[[Interface\Addons\DragonFlightUI\img\UI-TargetingFrame]]
+PlayerStatusTexture:SetTexture[[Interface\Addons\DragonFlightUI\img\UI-Player-Status]]
 
 --HealbarPlayer
-PlayerFrameHealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+PlayerFrameHealthBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
 PlayerFrameHealthBar:SetWidth(126)
 PlayerFrameHealthBar:SetHeight(20)
 PlayerFrameHealthBar:SetPoint("TOPLEFT", 102, -34)
 
 --ManaBarPlayer
-PlayerFrameManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
+PlayerFrameManaBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
 PlayerFrameManaBar:SetWidth(125)
 PlayerFrameManaBar:SetPoint("TOPLEFT", 102, -55)
 
@@ -35,11 +35,11 @@ playerFrame.manabar.TextString:SetFont(STANDARD_TEXT_FONT, 10,"OUTLINE")
 playerFrame.manabar.TextString:SetTextColor(1, 1, 1)
 
 --PartyMembersFrame
-PartyMemberFrame1Texture:SetTexture([[Interface\Addons\DF\img\UI-PartyFrame]])
+PartyMemberFrame1Texture:SetTexture([[Interface\Addons\DragonFlightUI\img\UI-PartyFrame]])
 PartyMemberFrame1Texture:SetWidth(160)
 PartyMemberFrame1Texture:SetHeight(80)
-PartyMemberFrame1HealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
-PartyMemberFrame1ManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
+PartyMemberFrame1HealthBar:SetStatusBarTexture([[Interface\Addons\DDragonFlightUIF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+PartyMemberFrame1ManaBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
 PartyMemberFrame1HealthBar:ClearAllPoints()
 PartyMemberFrame1HealthBar:SetPoint("CENTER", 35, -3)
 PartyMemberFrame1HealthBar:SetWidth(92)
@@ -58,11 +58,11 @@ PartyMemberFrame1Name:ClearAllPoints()
 PartyMemberFrame1Name:SetPoint("CENTER", 5, 15)
 
 --PartyMembersFrame2
-PartyMemberFrame2Texture:SetTexture([[Interface\Addons\DF\img\UI-PartyFrame]])
+PartyMemberFrame2Texture:SetTexture([[Interface\Addons\DragonFlightUI\img\UI-PartyFrame]])
 PartyMemberFrame2Texture:SetWidth(160)
 PartyMemberFrame2Texture:SetHeight(80)
-PartyMemberFrame2HealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
-PartyMemberFrame2ManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
+PartyMemberFrame2HealthBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+PartyMemberFrame2ManaBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
 PartyMemberFrame2HealthBar:ClearAllPoints()
 PartyMemberFrame2HealthBar:SetPoint("CENTER", 35, -3)
 PartyMemberFrame2HealthBar:SetWidth(92)
@@ -81,11 +81,11 @@ PartyMemberFrame2Name:ClearAllPoints()
 PartyMemberFrame2Name:SetPoint("CENTER", 5, 15)
 
 --PartyMembersFrame
-PartyMemberFrame3Texture:SetTexture([[Interface\Addons\DF\img\UI-PartyFrame]])
+PartyMemberFrame3Texture:SetTexture([[Interface\Addons\DragonFlightUI\img\UI-PartyFrame]])
 PartyMemberFrame3Texture:SetWidth(160)
 PartyMemberFrame3Texture:SetHeight(80)
-PartyMemberFrame3HealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
-PartyMemberFrame3ManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
+PartyMemberFrame3HealthBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+PartyMemberFrame3ManaBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
 PartyMemberFrame3HealthBar:ClearAllPoints()
 PartyMemberFrame3HealthBar:SetPoint("CENTER", 35, -3)
 PartyMemberFrame3HealthBar:SetWidth(92)
@@ -104,11 +104,11 @@ PartyMemberFrame3Name:ClearAllPoints()
 PartyMemberFrame3Name:SetPoint("CENTER", 5, 15)
 
 --PartyMembersFrame
-PartyMemberFrame4Texture:SetTexture([[Interface\Addons\DF\img\UI-PartyFrame]])
+PartyMemberFrame4Texture:SetTexture([[Interface\Addons\DragonFlightUI\img\UI-PartyFrame]])
 PartyMemberFrame4Texture:SetWidth(160)
 PartyMemberFrame4Texture:SetHeight(80)
-PartyMemberFrame4HealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
-PartyMemberFrame4ManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
+PartyMemberFrame4HealthBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+PartyMemberFrame4ManaBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Mana-Status.tga]])
 PartyMemberFrame4HealthBar:ClearAllPoints()
 PartyMemberFrame4HealthBar:SetPoint("CENTER", 35, -3)
 PartyMemberFrame4HealthBar:SetWidth(92)
@@ -128,14 +128,14 @@ PartyMemberFrame4Name:SetPoint("CENTER", 5, 15)
 
 
 --TargetFrame
-TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame2]]
+TargetFrameTexture:SetTexture[[Interface\Addons\DragonFlightUI\img\UI-TargetingFrame2]]
 
 --TargetofTarget
 TargetofTargetFrame:ClearAllPoints()
 TargetofTargetFrame:SetPoint("BOTTOM", TargetFrame, 38, -15)
-TargetofTargetTexture:SetTexture[[Interface\Addons\DF\img\TargetofTargetFrame]]
-TargetofTargetHealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
-TargetofTargetManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Target-PortraitOn-Bar-Health-Status.tga]])
+TargetofTargetTexture:SetTexture[[Interface\Addons\DragonFlightUI\img\TargetofTargetFrame]]
+TargetofTargetHealthBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+TargetofTargetManaBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Target-PortraitOn-Bar-Health-Status.tga]])
 TargetofTargetManaBar:ClearAllPoints()
 TargetofTargetHealthBar:SetWidth(53)
 TargetofTargetManaBar:SetWidth(53)
@@ -145,13 +145,13 @@ TargetofTargetBackground:SetPoint("CENTER", 20, 0)
 TargetofTargetBackground:SetWidth(50)
 TargetofTargetBackground:SetHeight(20)
 --HealbarTarget
-TargetFrameHealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
+TargetFrameHealthBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Player-PortraitOn-Bar-Health-Status.tga]])
 TargetFrameHealthBar:SetPoint("TOPRIGHT", -102, -34)
 TargetFrameHealthBar:SetHeight(20)
 TargetFrameHealthBar:SetWidth(125)
 
 --ManabarTarget
-TargetFrameManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-Target-PortraitOn-Bar-Mana-Status.tga]])
+TargetFrameManaBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-Target-PortraitOn-Bar-Mana-Status.tga]])
 TargetFrameManaBar:SetPoint("TOPRIGHT", -96, -52)
 TargetFrameManaBar:SetWidth(132)
 
@@ -179,15 +179,15 @@ local original = TargetFrame_CheckClassification
 function TargetFrame_CheckClassification()
   local classification = UnitClassification("target")
   if ( classification == "worldboss" ) then
-      TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame-Elite]]
+      TargetFrameTexture:SetTexture[[Interface\Addons\DragonFlightUI\img\UI-TargetingFrame-Elite]]
     elseif ( classification == "rareelite"  ) then
-      TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame-Elite]]
+      TargetFrameTexture:SetTexture[[Interface\Addons\DragonFlightUI\img\UI-TargetingFrame-Elite]]
     elseif ( classification == "elite"  ) then
-      TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame-Elite]]
+      TargetFrameTexture:SetTexture[[Interface\Addons\DragonFlightUI\img\UI-TargetingFrame-Elite]]
     elseif ( classification == "rare"  ) then
-      TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame-Elite-Rare]]
+      TargetFrameTexture:SetTexture[[Interface\Addons\DragonFlightUI\img\UI-TargetingFrame-Elite-Rare]]
     else
-      TargetFrameTexture:SetTexture[[Interface\Addons\DF\img\UI-TargetingFrame2]]  
+      TargetFrameTexture:SetTexture[[Interface\Addons\DragonFlightUI\img\UI-TargetingFrame2]]  
   end
 end
 
@@ -209,14 +209,14 @@ local new_PetFrame = PetFrame
 PetFrame_Update = function()
   -- Call the original function
   new_PetFrame_Update()
-  PetFrameTexture:SetTexture("Interface\\Addons\\DF\\img\\pet")
+  PetFrameTexture:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\pet")
   PetFrameTexture:SetDrawLayer("BACKGROUND") -- Set the draw layer of the texture
   PetFrame:ClearAllPoints()
   PetFrame:SetPoint("BOTTOM", PlayerFrame, -10, -30)
   -- Change the frame strata of the HealthBar and ManaBar
   
   --PetFrameHealthBar:SetFrameStrata("MEDIUM")
-  PetFrameHealthBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health]])
+  PetFrameHealthBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Health]])
   -- Adjust the position of the PetFrameHealthBar
   PetFrameHealthBar:SetHeight(13)
   PetFrameHealthBar:ClearAllPoints()
@@ -224,9 +224,9 @@ PetFrame_Update = function()
   --PetFrameManaBar:SetFrameStrata("MEDIUM")
     local class = UnitClass("player")
     if class == "Hunter" then
-      PetFrameManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Focus]])
+      PetFrameManaBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Focus]])
     else
-      PetFrameManaBar:SetStatusBarTexture([[Interface\Addons\DF\img\Unitframe\UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Mana]])
+      PetFrameManaBar:SetStatusBarTexture([[Interface\Addons\DragonFlightUI\img\Unitframe\UI-HUD-UnitFrame-TargetofTarget-PortraitOn-Bar-Mana]])
     end
   -- Adjust the position of the PetFrameManaBar
   PetFrameManaBar:ClearAllPoints()

@@ -15,38 +15,53 @@ rightGryphonFrame:SetFrameStrata("MEDIUM")
 local leftGryphon = leftGryphonFrame:CreateTexture(nil, "OVERLAY")
 local rightGryphon = rightGryphonFrame:CreateTexture(nil, "OVERLAY")
 
---Checking Horde vs. Alliance wouldn't work, so using races
+-- Comand Hide Gryphos
+SLASH_GRYPHOS1 = "/ghide"
+SLASH_LOL1 = "/gshow"
+SlashCmdList["GRYPHOS"] = function()
+    if leftGryphon:IsShown() and rightGryphon:IsShown() then
+        leftGryphon:Hide()
+        rightGryphon:Hide()
+    end
+end
+SlashCmdList["LOL"] = function()
+        leftGryphon:Show()
+        rightGryphon:Show()
+end
+
+
+-- Checking Horde vs. Alliance wouldn't work, so using races
 local race = UnitRace("player")
---DEFAULT_CHAT_FRAME:AddMessage("Your race is " .. race .. ".")
+-- DEFAULT_CHAT_FRAME:AddMessage("Your race is " .. race .. ".")
 
 if race == "Night Elf" then
-    leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
-    rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
+    leftGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Gryphon")
+    rightGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Gryphon")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70, 8)
     rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 8)
 elseif race == "Human" then
-    leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
-    rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
+    leftGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Gryphon")
+    rightGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Gryphon")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70, 8)
     rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 8)
 elseif race == "Gnome" then
-    leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
-    rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
+    leftGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Gryphon")
+    rightGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Gryphon")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70, 8)
     rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 8)
 elseif race == "Dwarf" then
-    leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
-    rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
+    leftGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Gryphon")
+    rightGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Gryphon")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70, 8)
     rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 8)
 elseif race == "High Elf" then
-    leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
-    rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Gryphon")
+    leftGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Gryphon")
+    rightGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Gryphon")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70, 8)
     rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 8)
 else
-    leftGryphon:SetTexture("Interface\\Addons\\DF\\img\\Wyvern")
-    rightGryphon:SetTexture("Interface\\Addons\\DF\\img\\Wyvern")
+    leftGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Wyvern")
+    rightGryphon:SetTexture("Interface\\Addons\\DragonFlightUI\\img\\Wyvern")
     leftGryphon:SetPoint("LEFT", MainMenuBarArtFrame, "LEFT", -70.5, 2)
     rightGryphon:SetPoint("RIGHT", MainMenuBarArtFrame, "RIGHT", 74, 3)
 end
@@ -57,14 +72,8 @@ leftGryphon:SetHeight(84)
 rightGryphon:SetWidth(84)
 rightGryphon:SetHeight(84)
 
--- Position the new textures
-
 -- Flip the right texture
 rightGryphon:SetTexCoord(1, 0, 0, 1)
-
-SetCVar("Useuiscale", "1")
-SetCVar("UiScale", "0.9")
-
 
 
 

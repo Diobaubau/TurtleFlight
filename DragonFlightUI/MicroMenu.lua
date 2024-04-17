@@ -9,17 +9,17 @@ mbHelp:SetWidth(18)
 mbHelp:SetHeight(25)
 mbHelp:SetPoint("BOTTOMRIGHT", UIParent, -10, 12) --sets the location of the button
 --Set the button's normal texture
-mbHelp:SetNormalTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbHelp:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local HelpNormalTexture = mbHelp:GetNormalTexture()
 HelpNormalTexture:SetTexCoord(202/256, 237/256, 215/512, 265/512)
 --Set the button's pushed texture
-mbHelp:SetPushedTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbHelp:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local HelpPushedTexture = mbHelp:GetPushedTexture()
 HelpPushedTexture:SetTexCoord(162/256, 198/256, 215/512, 265/512)
 --Set the button's highlight texture
-mbHelp:SetHighlightTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbHelp:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local HelpHighlightTexture = mbHelp:GetHighlightTexture()
 HelpHighlightTexture:SetTexCoord(162/256, 198/256, 215/512, 265/512)
@@ -51,17 +51,17 @@ mbMainMenu:SetWidth(18)
 mbMainMenu:SetHeight(25)
 mbMainMenu:SetPoint("BOTTOMRIGHT", UIParent, -30, 12) --sets the location of the button
 --Set the button's normal texture
-mbMainMenu:SetNormalTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbMainMenu:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local MainMenuNormalTexture = mbMainMenu:GetNormalTexture()
 MainMenuNormalTexture:SetTexCoord(2/256, 37/256, 107/512, 157/512)
 --Set the button's pushed texture
-mbMainMenu:SetPushedTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbMainMenu:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local MainMenuPushedTexture = mbMainMenu:GetPushedTexture()
 MainMenuPushedTexture:SetTexCoord(122/256, 157/256, 323/512, 372/512)
 --Set the button's highlight texture
-mbMainMenu:SetHighlightTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbMainMenu:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local MainMenuHighlightTexture = mbMainMenu:GetHighlightTexture()
 MainMenuHighlightTexture:SetTexCoord(122/256, 157/256, 323/512, 372/512)
@@ -95,17 +95,17 @@ mbShop:SetWidth(18)
 mbShop:SetHeight(25)
 mbShop:SetPoint("BOTTOMRIGHT", UIParent, -50, 12) --sets the location of the button
 --Set the button's normal texture
-mbShop:SetNormalTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbShop:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local ShopNormalTexture = mbShop:GetNormalTexture()
 ShopNormalTexture:SetTexCoord(41/256, 78/256, 161/512, 211/512)
 --Set the button's pushed texture
-mbShop:SetPushedTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbShop:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local ShopPushedTexture = mbShop:GetPushedTexture()
 ShopPushedTexture:SetTexCoord(0/256, 38/256, 431/512, 482/512)
 --Set the button's highlight texture
-mbShop:SetHighlightTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbShop:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local ShopHighlightTexture = mbShop:GetHighlightTexture()
 ShopHighlightTexture:SetTexCoord(0/256, 38/256, 431/512, 482/512)
@@ -137,17 +137,17 @@ mbLFT:SetWidth(18)
 mbLFT:SetHeight(25)
 mbLFT:SetPoint("BOTTOMRIGHT", UIParent, -70, 12) --sets the location of the button
 --Set the button's normal texture
-mbLFT:SetNormalTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbLFT:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local LFTNormalTexture = mbLFT:GetNormalTexture()
 LFTNormalTexture:SetTexCoord(0/256, 38/256, 161/512, 211/512)
 --Set the button's pushed texture
-mbLFT:SetPushedTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbLFT:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local LFTPushedTexture = mbLFT:GetPushedTexture()
 LFTPushedTexture:SetTexCoord(41/256, 78/256, 107/512, 157/512)
 --Set the button's highlight texture
-mbLFT:SetHighlightTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbLFT:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local LFTHighlightTexture = mbLFT:GetHighlightTexture()
 LFTHighlightTexture:SetTexCoord(41/256, 78/256, 107/512, 157/512)
@@ -181,7 +181,7 @@ overlay:SetPoint("CENTER", LFT_MinimapEye, "CENTER")
 -- Set the texture for the overlay
 overlay.texture = overlay:CreateTexture()
 overlay.texture:SetAllPoints()
-overlay.texture:SetTexture("Interface\\AddOns\\DF\\img\\uigroupfinderflipbookeye.tga")
+overlay.texture:SetTexture("Interface\\AddOns\\DragonFlightUI\\img\\uigroupfinderflipbookeye.tga")
 overlay.texture:SetTexCoord(10/512, 55/512, 8/256, 55/256)
 
  -- Animation works, but it gets cut off before it finishes
@@ -278,17 +278,17 @@ mbWorldMap:SetWidth(18)
 mbWorldMap:SetHeight(25)
 mbWorldMap:SetPoint("BOTTOMRIGHT", UIParent, -90, 12) --sets the location of the button
 --Set the button's normal texture
-mbWorldMap:SetNormalTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbWorldMap:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local WorldMapNormalTexture = mbWorldMap:GetNormalTexture()
 WorldMapNormalTexture:SetTexCoord(162/256, 196/256, 107/512, 157/512)
 --Set the button's pushed texture
-mbWorldMap:SetPushedTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbWorldMap:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local WorldMapPushedTexture = mbWorldMap:GetPushedTexture()
 WorldMapPushedTexture:SetTexCoord(202/256, 237/256, 54/512, 102/512)
 --Set the button's highlight texture
-mbWorldMap:SetHighlightTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbWorldMap:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local WorldMapHighlightTexture = mbWorldMap:GetHighlightTexture()
 WorldMapHighlightTexture:SetTexCoord(202/256, 237/256, 54/512, 102/512)
@@ -320,17 +320,17 @@ mbSocials:SetWidth(18)
 mbSocials:SetHeight(25)
 mbSocials:SetPoint("BOTTOMRIGHT", UIParent, -110, 12) --sets the location of the button
 --Set the button's normal texture
-mbSocials:SetNormalTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbSocials:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local SocialsNormalTexture = mbSocials:GetNormalTexture()
 SocialsNormalTexture:SetTexCoord(42/256, 76/256, 54/512, 102/512)
 --Set the button's pushed texture
-mbSocials:SetPushedTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbSocials:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local SocialsPushedTexture = mbSocials:GetPushedTexture()
 SocialsPushedTexture:SetTexCoord(42/256, 77/256, 0/512, 48/512)
 --Set the button's highlight texture
-mbSocials:SetHighlightTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbSocials:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local SocialsHighlightTexture = mbSocials:GetHighlightTexture()
 SocialsHighlightTexture:SetTexCoord(42/256, 77/256, 0/512, 48/512)
@@ -362,17 +362,17 @@ mbQuestLog:SetWidth(18)
 mbQuestLog:SetHeight(25)
 mbQuestLog:SetPoint("BOTTOMRIGHT", UIParent, -130, 12) --sets the location of the button
 --Set the button's normal texture
-mbQuestLog:SetNormalTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbQuestLog:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local QuestLogNormalTexture = mbQuestLog:GetNormalTexture()
 QuestLogNormalTexture:SetTexCoord(202/256, 237/256, 270/512, 318/512)
 --Set the button's pushed texture
-mbQuestLog:SetPushedTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbQuestLog:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local QuestLogPushedTexture = mbQuestLog:GetPushedTexture()
 QuestLogPushedTexture:SetTexCoord(42/256, 77/256, 432/512, 480/512)
 --Set the button's highlight texture
-mbQuestLog:SetHighlightTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbQuestLog:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local QuestLogHighlightTexture = mbQuestLog:GetHighlightTexture()
 QuestLogHighlightTexture:SetTexCoord(42/256, 77/256, 432/512, 480/512)
@@ -406,17 +406,17 @@ mbTalent:SetWidth(18)
 mbTalent:SetHeight(25)
 mbTalent:SetPoint("BOTTOMRIGHT", UIParent, -150, 12) --sets the location of the button
 --Set the button's normal texture
-mbTalent:SetNormalTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbTalent:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local TalentNormalTexture = mbTalent:GetNormalTexture()
 TalentNormalTexture:SetTexCoord(162/256, 197/256, 0/512, 48/512)
 --Set the button's pushed texture
-mbTalent:SetPushedTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbTalent:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local TalentPushedTexture = mbTalent:GetPushedTexture()
 TalentPushedTexture:SetTexCoord(82/256, 117/256, 0/512, 48/512)
 --Set the button's highlight texture
-mbTalent:SetHighlightTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbTalent:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local TalentHighlightTexture = mbTalent:GetHighlightTexture()
 TalentHighlightTexture:SetTexCoord(82/256, 117/256, 0/512, 48/512)
@@ -449,17 +449,17 @@ mbSpellBook:SetWidth(18)
 mbSpellBook:SetHeight(25)
 mbSpellBook:SetPoint("BOTTOMRIGHT", UIParent, -170, 12) --sets the location of the button
 --Set the button's normal texture
-mbSpellBook:SetNormalTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbSpellBook:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local SpellbookNormalTexture = mbSpellBook:GetNormalTexture()
 SpellbookNormalTexture:SetTexCoord(122/256, 157/256, 54/512, 102/512)
 --Set the button's pushed texture
-mbSpellBook:SetPushedTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbSpellBook:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local SpellbookPushedTexture = mbSpellBook:GetPushedTexture()
 SpellbookPushedTexture:SetTexCoord(190/256, 225/256, 432/512, 480/512)
 --Set the button's highlight texture
-mbSpellBook:SetHighlightTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbSpellBook:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 --Get the texture object and set its coordinates
 local SpellbookHighlightTexture = mbSpellBook:GetHighlightTexture()
 SpellbookHighlightTexture:SetTexCoord(190/256, 225/256, 432/512, 480/512)
@@ -494,17 +494,17 @@ mbCharacter:SetHeight(25)
 mbCharacter:ClearAllPoints()
 mbCharacter:SetPoint("BOTTOMRIGHT", UIParent, -190, 12) -- position Character button next to Spellbook
 -- Set the button's normal texture
-mbCharacter:SetNormalTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbCharacter:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 -- Get the texture object and set its coordinates
 local CharacterNormalTexture = mbCharacter:GetNormalTexture()
 CharacterNormalTexture:SetTexCoord(2/256, 37/256, 324/512, 372/512)
 -- Set the button's pushed texture
-mbCharacter:SetPushedTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbCharacter:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 -- Get the texture object and set its coordinates
 local CharacterPushedTexture = mbCharacter:GetPushedTexture()
 CharacterPushedTexture:SetTexCoord(82/256, 116/256, 216/512, 264/512) -- adjust these values as needed 
 -- Set the button's highlight texture
-mbCharacter:SetHighlightTexture("Interface\\AddOns\\DF\\img\\uimicromenu2x.tga")
+mbCharacter:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\uimicromenu2x.tga")
 -- Get the texture object and set its coordinates
 local CharacterHighlightTexture = mbCharacter:GetHighlightTexture()
 CharacterHighlightTexture:SetTexCoord(82/256, 116/256, 216/512, 264/512) -- adjust these values as needed
@@ -535,7 +535,7 @@ local mbLatency = MainMenuBarPerformanceBarFrameButton
 
 -- Set the normal texture and store a reference to it
 mbLatency.texture = mbLatency:CreateTexture(nil, "BACKGROUND")
-mbLatency:SetNormalTexture("Interface\\AddOns\\DF\\img\\Latency.tga")
+mbLatency:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\Latency.tga")
 --mbLatency:SetTexCoord(3/32, 28/32, 56/64, 60/64)
 -- Set the position and size of your button
 mbLatency:ClearAllPoints()
@@ -550,17 +550,17 @@ mbLatency:SetScript("OnUpdate", function(self, elapsed)
     --this.texture:SetVertexColor(0, 1, 0)
     -- Change the color based on latency
     if latencyHome < 200 then
-      mbLatency:SetNormalTexture("Interface\\AddOns\\DF\\img\\LatencyGreen.tga")
+      mbLatency:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\LatencyGreen.tga")
         -- Latency is good, set color to green
         --this.texture:SetVertexColor(0, 1, 0)
     elseif latencyHome < 300 then
         -- Latency is poor, set color to yellow
         --this.texture:SetVertexColor(1, 1, 0)
-        mbLatency:SetNormalTexture("Interface\\AddOns\\DF\\img\\LatencyYellow.tga")
+        mbLatency:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\LatencyYellow.tga")
     else
         -- Latency is bad, set color to red
         --this.texture:SetVertexColor(1, 0, 0)
-        mbLatency:SetNormalTexture("Interface\\AddOns\\DF\\img\\LatencyRed.tga")
+        mbLatency:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\LatencyRed.tga")
     end
 end)
 ---------------------------------------------Latency Micro Button---------------------------------------------

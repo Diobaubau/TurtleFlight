@@ -1,10 +1,3 @@
---[[
-Author: YouTube.com/@TheLinuxITGuy
-Built on: Linux Mint Debian Edition 12
-This lua file hides the original Blizzard XP bar in 1.12. I've created a new XP bar to match
-Dragonflight.
-]]
-
 MainMenuExpBar:SetAlpha(0) --Required for XPbar.lua to work
 
 local playerLevel = UnitLevel("player")
@@ -12,22 +5,24 @@ local MyXPBar = CreateFrame("Frame", "MyXPBar", UIParent)
 local MyXPBarTexture = MyXPBar:CreateTexture("MyXPBarTexture", "ARTWORK")
 local MyXPBarStatus = CreateFrame("StatusBar", "MyXPBarStatus", UIParent)
 local MyXPBarText = MyXPBar:CreateFontString(nil, "OVERLAY")
+local MyRestText = MyXPBar:CreateFontString(nil, "OVERLAY")
+
 MyXPBar:Hide() --hide initially
 
 if playerLevel < 60 then
 
-MyXPBar:SetWidth(510)
+MyXPBar:SetWidth(430)
 MyXPBar:SetHeight(19)
 MyXPBar:SetPoint("CENTER", MainMenuExpBar, "CENTER", 1, 3) -- -588
 MyXPBar:Show()
 MyXPBar:SetFrameStrata("HIGH")
 
-MyXPBarTexture:SetTexture("Interface\\AddOns\\DF\\img\\XP512.tga")
+MyXPBarTexture:SetTexture("Interface\\AddOns\\DragonFlightUI\\img\\XP512.tga")
 MyXPBarTexture:SetTexCoord(0/512, 512/512, 245/512, 264/512)
 MyXPBarTexture:SetAllPoints(MyXPBar)
 
 -- Create the frame for the blue or purple bar
-MyXPBarStatus:SetWidth(515)
+MyXPBarStatus:SetWidth(429)
 MyXPBarStatus:SetHeight(9)
 MyXPBarStatus:SetPoint("CENTER", MyXPBar, "CENTER", 0, 0)
 MyXPBarStatus:SetMinMaxValues(0, 1)
@@ -40,6 +35,8 @@ MyXPBarStatus:SetStatusBarTexture("Interface\\TargetingFrame\\UI-StatusBar")
 -- Create the text
 MyXPBarText:SetFont(STANDARD_TEXT_FONT, 10, "OUTLINE")
 MyXPBarText:SetPoint("CENTER", MyXPBar, "CENTER", 0, 2)
+MyRestText:SetFont(STANDARD_TEXT_FONT, 10, "OUTLINE")
+MyRestText:SetPoint("CENTER", MyXPBar, "CENTER", 193, 2)
 
 -- Register the events
 MyXPBar:RegisterEvent("PLAYER_XP_UPDATE")
@@ -55,7 +52,7 @@ local function UpdateXPBar()
   local xpPercent = currentXP / maxXP
   local xpMaxPercent = maxExhXP / maxXP -- calculates the Tent XP to a max of 150%
 
-  MyXPBarStatus:SetWidth(512)
+  MyXPBarStatus:SetWidth(429)
   MyXPBarStatus:SetHeight(500)
 
       -- Check if the player is rested
@@ -63,33 +60,36 @@ local function UpdateXPBar()
         -- The player is rested
         if xpMaxPercent == 1.5 then
           -- Rested XP is exactly 150%
-          MyXPBarStatus:SetStatusBarTexture("Interface\\AddOns\\DF\\img\\TentMax.tga")
+          MyXPBarStatus:SetStatusBarTexture("Interface\\AddOns\\DragonFlightUI\\img\\TentMax.tga")
         else
           -- Rested XP is less than 150%
-          MyXPBarStatus:SetStatusBarTexture("Interface\\AddOns\\DF\\img\\Rested.tga")
+          MyXPBarStatus:SetStatusBarTexture("Interface\\AddOns\\DragonFlightUI\\img\\Rested.tga")
         end
       else
         -- The player is not rested, set the status bar color to purple
         --MyXPBarStatus:SetStatusBarColor(1, 0, 1)
-        MyXPBarStatus:SetStatusBarTexture("Interface\\AddOns\\DF\\img\\Main.tga")
+        MyXPBarStatus:SetStatusBarTexture("Interface\\AddOns\\DragonFlightUI\\img\\Main.tga")
       end
   MyXPBarStatus:SetValue(xpPercent)
   --MyXPBarStatus:SetValue(xpMaxPercent)
-  --MyXPBarText:SetText(format("Current: %d / %d (Max: %.2f%%)", currentXP, maxXP, xpMaxPercent * 100))
-  MyXPBarText:SetText(format("Current: %.2f%% | Rested: %.2f%%)", xpPercent *100, xpMaxPercent * 100))
+  MyXPBarText:SetText(format("%d / %d", currentXP, maxXP, xpMaxPercent * 100))
+  MyRestText:SetText(format("%.f%%", xpMaxPercent * 100))
 end
 
  MyXPBarText:Hide()
+ MyRestText:Hide()
  
   -- Show the text when the mouse enters the frame
   MainMenuExpBar:SetScript("OnEnter", function(self)
     MyXPBarText:Show()
+    MyRestText:Show()
     UpdateXPBar()
   end)
   
   -- Hide the text when the mouse leaves the frame
   MainMenuExpBar:SetScript("OnLeave", function(self)
     MyXPBarText:Hide()
+    MyRestText:Hide()
   end)
 
 -- Update the event handler

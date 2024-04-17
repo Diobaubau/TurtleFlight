@@ -18,7 +18,7 @@ f:SetScript("OnEvent", function()
 
     -- Set the minimap mask texture (with alpha channel)
     customMinimap.texture = customMinimap:CreateTexture(nil, "BACKGROUND")
-    customMinimap.texture:SetTexture("Interface\\AddOns\\DF\\img\\uiminimapmask.tga")
+    customMinimap.texture:SetTexture("Interface\\AddOns\\DragonFlightUI\\img\\uiminimapmask.tga")
     customMinimap.texture:SetAllPoints(customMinimap)
     customMinimap.texture:SetVertexColor(1, 1, 1, 0) -- Fully transparent
 
@@ -36,7 +36,7 @@ f:SetScript("OnEvent", function()
 
     -- Add the Minimap border texture (displayed above the actual Minimap)
     local borderTexture = customMinimap:CreateTexture(nil, "BACKGROUND")
-    borderTexture:SetTexture("Interface\\AddOns\\DF\\img\\uiminimapborder.tga")
+    borderTexture:SetTexture("Interface\\AddOns\\DragonFlightUI\\img\\uiminimapborder.tga")
     borderTexture:SetAllPoints(customMinimap)
 
     --Add text over the Minimap
@@ -55,21 +55,21 @@ tMinimapZoomOut:ClearAllPoints()
 tMinimapZoomIn:SetPoint("TOPRIGHT", MinimapZoneText, "TOPLEFT", 160, -160)
 tMinimapZoomOut:SetPoint("TOPRIGHT", MinimapZoneText, "TOPLEFT", 145, -180)
 --Normal
-tMinimapZoomIn:SetNormalTexture("Interface\\AddOns\\DF\\img\\ZoomIn32.tga")
+tMinimapZoomIn:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\ZoomIn32.tga")
 tMinimapZoomIn:SetWidth(16)
 tMinimapZoomIn:SetHeight(16)
 --Mouse over
-tMinimapZoomIn:SetHighlightTexture("Interface\\AddOns\\DF\\img\\ZoomIn32-over.tga")
+tMinimapZoomIn:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\ZoomIn32-over.tga")
 --Mouse click
-tMinimapZoomIn:SetPushedTexture("Interface\\AddOns\\DF\\img\\ZoomIn32-push.tga")
+tMinimapZoomIn:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\ZoomIn32-push.tga")
 
-tMinimapZoomOut:SetNormalTexture("Interface\\AddOns\\DF\\img\\ZoomOut32.tga")
+tMinimapZoomOut:SetNormalTexture("Interface\\AddOns\\DragonFlightUI\\img\\ZoomOut32.tga")
 tMinimapZoomOut:SetWidth(16)
 tMinimapZoomOut:SetHeight(16)
 --Mouse over
-tMinimapZoomOut:SetHighlightTexture("Interface\\AddOns\\DF\\img\\ZoomOut32-push.tga")
+tMinimapZoomOut:SetHighlightTexture("Interface\\AddOns\\DragonFlightUI\\img\\ZoomOut32-push.tga")
 --Mouse click
-tMinimapZoomOut:SetPushedTexture("Interface\\AddOns\\DF\\img\\ZoomOut32-push.tga")
+tMinimapZoomOut:SetPushedTexture("Interface\\AddOns\\DragonFlightUI\\img\\ZoomOut32-push.tga")
 
 -------------Event-----------------
 -- Get the current minimap zoom level

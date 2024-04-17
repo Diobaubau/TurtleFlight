@@ -1,0 +1,16 @@
+## Interface: 11200
+## Title: |cffffff00DragonFlight |cff00fff3UI
+## Author: Payment
+## Notes: Dragonflight UI
+## SavedVariables: DragonFlight_SV
+
+ActionBar.lua
+Bags.lua
+CastBar.lua
+ComboPoints.xml
+Gryphos.lua
+HealthNumbers.lua
+MicroMenu.lua
+Minimap.lua
+UnitFrame.lua
+XPbar.lua

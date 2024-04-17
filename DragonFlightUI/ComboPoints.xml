@@ -43,7 +43,7 @@
 				</Anchors>
 				<Layers>
 					<Layer level="ARTWORK">
-						<Texture name="RogueFocusBorder1Texture" file="Interface\AddOns\DF\Textures\ComboBorde2">
+						<Texture name="RogueFocusBorder1Texture" file="Interface\AddOns\DragonFlightUI\Textures\ComboBorde2">
 							<Size>
 								<AbsDimension x="32" y="32" />
 							</Size>
@@ -69,7 +69,7 @@
 								</Offset>
 							</Anchor>
 						</Anchors>
-						<BarTexture file="Interface\AddOns\DF\Textures\ComboStatus2" />
+						<BarTexture file="Interface\AddOns\DragonFlightUI\Textures\ComboStatus2" />
 					</StatusBar>
 				</Frames>
 			</Button>
@@ -87,7 +87,7 @@
 				</Anchors>
 				<Layers>
 					<Layer level="ARTWORK">
-						<Texture name="RogueFocusBorder2Texture" file="Interface\AddOns\DF\Textures\ComboBorde2">
+						<Texture name="RogueFocusBorder2Texture" file="Interface\AddOns\DragonFlightUI\Textures\ComboBorde2">
 							<Size>
 								<AbsDimension x="32" y="32" />
 							</Size>
@@ -113,7 +113,7 @@
 								</Offset>
 							</Anchor>
 						</Anchors>
-						<BarTexture file="Interface\AddOns\DF\Textures\ComboStatus2" />
+						<BarTexture file="Interface\AddOns\DragonFlightUI\Textures\ComboStatus2" />
 					</StatusBar>
 				</Frames>
 			</Button>
@@ -131,7 +131,7 @@
 				</Anchors>
 				<Layers>
 					<Layer level="ARTWORK">
-						<Texture name="RogueFocusBorder3Texture" file="Interface\AddOns\DF\Textures\ComboBorde2">
+						<Texture name="RogueFocusBorder3Texture" file="Interface\AddOns\DragonFlightUI\Textures\ComboBorde2">
 							<Size>
 								<AbsDimension x="32" y="32" />
 							</Size>
@@ -157,7 +157,7 @@
 								</Offset>
 							</Anchor>
 						</Anchors>
-						<BarTexture file="Interface\AddOns\DF\Textures\ComboStatus2" />
+						<BarTexture file="Interface\AddOns\DragonFlightUI\Textures\ComboStatus2" />
 					</StatusBar>
 				</Frames>
 			</Button>
@@ -175,7 +175,7 @@
 				</Anchors>
 				<Layers>
 					<Layer level="ARTWORK">
-						<Texture name="RogueFocusBorder4Texture" file="Interface\AddOns\DF\Textures\ComboBorde2">
+						<Texture name="RogueFocusBorder4Texture" file="Interface\AddOns\DragonFlightUI\Textures\ComboBorde2">
 							<Size>
 								<AbsDimension x="32" y="32" />
 							</Size>
@@ -201,7 +201,7 @@
 								</Offset>
 							</Anchor>
 						</Anchors>
-						<BarTexture file="Interface\AddOns\DF\Textures\ComboStatus2" />
+						<BarTexture file="Interface\AddOns\DragonFlightUI\Textures\ComboStatus2" />
 					</StatusBar>
 				</Frames>
 			</Button>
@@ -219,7 +219,7 @@
 				</Anchors>
 				<Layers>
 					<Layer level="ARTWORK">
-						<Texture name="RogueFocusBorder5Texture" file="Interface\AddOns\DF\Textures\ComboBorde">
+						<Texture name="RogueFocusBorder5Texture" file="Interface\AddOns\DragonFlightUI\Textures\ComboBorde">
 							<Size>
 								<AbsDimension x="50" y="50" />
 							</Size>
@@ -245,7 +245,7 @@
 								</Offset>
 							</Anchor>
 						</Anchors>
-						<BarTexture file="Interface\AddOns\DF\Textures\ComboStatus" />
+						<BarTexture file="Interface\AddOns\DragonFlightUI\Textures\ComboStatus" />
 					</StatusBar>
 				</Frames>
 			</Button>
